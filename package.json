@@ -1,6 +1,6 @@
 {
   "name": "seapack-f-o",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Mainly for file operation, file export, preview",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,11 @@
   },
   "author": "seapack",
   "license": "ISC",
+  "peerDependencies": {
+    "xlsx": "^0.18.5"
+  },
   "devDependencies": {
     "xlsx": "^0.18.5"
-  }
+  },
+  "homepage": "https://github.com/seapack-hub/seapack-f-o"
 }
